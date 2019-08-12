@@ -10,9 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func onTimerTapped(_ sender: Any) {
+        print("timer")
+    }
+    
+    @IBAction func onDatePressed(_ sender: Any) {
+        print("Date")
+    }
+    
+    @IBAction func onLocationPressed(_ sender: Any) {
+        print("Location")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 
