@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA052A9C2302302200F130B2 /* UNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA052A9B2302302200F130B2 /* UNService.swift */; };
 		AA5F9AF52302163000FBC25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5F9AF42302163000FBC25D /* AppDelegate.swift */; };
 		AA5F9AF72302163000FBC25D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5F9AF62302163000FBC25D /* ViewController.swift */; };
 		AA5F9AFA2302163100FBC25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5F9AF82302163100FBC25D /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA052A9B2302302200F130B2 /* UNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNService.swift; sourceTree = "<group>"; };
 		AA5F9AF12302163000FBC25D /* Remind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5F9AF42302163000FBC25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA5F9AF62302163000FBC25D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		AA5F9B062302172F00FBC25D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				AA052A9B2302302200F130B2 /* UNService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				AA5F9B0B2302192300FBC25D /* ShadowView.swift in Sources */,
 				AA5F9AF72302163000FBC25D /* ViewController.swift in Sources */,
+				AA052A9C2302302200F130B2 /* UNService.swift in Sources */,
 				AA5F9AF52302163000FBC25D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
