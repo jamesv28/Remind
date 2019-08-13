@@ -47,7 +47,15 @@ class UNService: NSObject {
     }
     
     func dateRequest(with components: DateComponents) {
+       let content = UNMutableNotificationContent()
+        content.title = "Date trigger "
+        content.body = "It is now the future!"
+        content.sound = .default
+        content.badge = 1
         
+        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: true)
+        let request = UNNotificationRequest(identifier: "userNotification.date", content: content, trigger: trigger)
+        unCenter.add(request)
     }
     
     func locationRequest() {

@@ -11,16 +11,26 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func onTimerTapped(_ sender: Any) {
-        print("timer")
-        UNService.shared.timerRequest(with: 5)
+        AlertService.actionSheet(in: self, title: "Five Seconds") {
+            UNService.shared.timerRequest(with: 5)
+        }
+        
     }
     
     @IBAction func onDatePressed(_ sender: Any) {
-        print("Date")
+        AlertService.actionSheet(in: self, title: "Some future time") {
+            var components = DateComponents()
+            components.second = 0
+            UNService.shared.dateRequest(with: components)
+        }
+        
     }
     
     @IBAction func onLocationPressed(_ sender: Any) {
-        print("Location")
+        AlertService.actionSheet(in: self, title: "When i return") {
+            print("Location")
+
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()

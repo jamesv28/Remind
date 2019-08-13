@@ -14,6 +14,7 @@
 		AA5F9AFC2302164D00FBC25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5F9AFB2302164D00FBC25D /* Assets.xcassets */; };
 		AA5F9AFF2302164F00FBC25D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5F9AFD2302164F00FBC25D /* LaunchScreen.storyboard */; };
 		AA5F9B0B2302192300FBC25D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5F9B0A2302192300FBC25D /* ShadowView.swift */; };
+		AAFDC42923035021005C8F8A /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFDC42823035021005C8F8A /* AlertService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AA5F9AFE2302164F00FBC25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA5F9B002302164F00FBC25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA5F9B0A2302192300FBC25D /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		AAFDC42823035021005C8F8A /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				AA052A9B2302302200F130B2 /* UNService.swift */,
+				AAFDC42823035021005C8F8A /* AlertService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				AA5F9AF72302163000FBC25D /* ViewController.swift in Sources */,
 				AA052A9C2302302200F130B2 /* UNService.swift in Sources */,
 				AA5F9AF52302163000FBC25D /* AppDelegate.swift in Sources */,
+				AAFDC42923035021005C8F8A /* AlertService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
